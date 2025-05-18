@@ -53,8 +53,13 @@ nav ul li a {
     color: var(--acqua);
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.063rem;
+    text-underline-offset: 0.5rem;
+}
+
 #hero {
-    /* background-image: url('/assets/pattern-svg.svg'); */
     height: 100vh;
     display: flex;
     flex-direction: row-reverse;
